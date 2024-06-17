@@ -67,7 +67,7 @@ async function connectWebsite() {
     }
 
     window.ethereum.on('accountsChanged', function(accounts){
-      window.location.replace(location.pathname)
+      // window.location.replace(location.pathname)
     })
   });
 
